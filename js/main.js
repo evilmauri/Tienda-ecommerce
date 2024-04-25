@@ -1,6 +1,6 @@
 let productos = [];
 
-fetch("https://tiendae-commerce-213e1-default-rtdb.firebaseio.com/")
+fetch("https://tiendae-commerce-213e1-default-rtdb.firebaseio.com/productos.json")
     .then(response => response.json())
     .then(data => {
         productos = data;
